@@ -1,0 +1,48 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.phone__outline{
+    border: 3px solid black; 
+    border-radius: 5px;
+    width: 25%;
+    height: 40rem;
+    margin-top: 3rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: rgb(216, 216, 216);
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.title{
+    align-items: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.team__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+    gap: 20px; /* Adjust spacing between tiles */
+  }
+  
+.team {
+    border: 1px solid #ccc; /* Add a border to each tile */
+    padding: 15px; /* Add some padding */
+    background-color: rgb(243, 240, 240);
+}
